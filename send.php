@@ -47,8 +47,8 @@ $error="";
 
         $mail->Host = 'ssl://smtp.mail.ru';
         $mail->Port = 465;
-        $mail->Username = 'denis.sv1976@mail.ru';
-        $mail->Password = 'D25e_4k!N69m17';
+        $mail->Username = '@mail.ru';//email
+        $mail->Password = '###';//password
         $mail->setFrom('denis.sv1976@mail.ru', 'denis.sv1976');		
  
         $mail->Subject = "Тестовое задание - форма обратной связи";
