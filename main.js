@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
              $error=$error+"Не заполнено поле Вопрос!<br>"
          }
          if ($error!=="") {
-             $error="<b>Обнаружены следующие ошибки:</b><br>"+$error+"<b>Пожалуйста, исправьте их и попробуйте еще раз.</b>";
+             $error="Обнаружены следующие ошибки:<br>"+$error+"Пожалуйста, исправьте их и попробуйте еще раз.";
              $elem_error.innerHTML = $error;
              event.preventDefault(); 
          }

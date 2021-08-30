@@ -8,7 +8,7 @@
 <body>
     <?php require_once 'send.php'; ?> <!--Отправка email-->
     <h1 align="center">Форма отправки данных</h1>
-    <div id="error" align='center' style='background-color:red;width:400px;margin:0 auto;'><?= $error ?></div>
+    <div id="error" align='center' style='color:red;width:400px;margin:0 auto;'><?= $error ?></div>
     <div id="result"  align='center' style='background-color:greenyellow;width:400px;margin:0 auto;'><?= $result ?></div>
     <br>
     <?php if ($result=="") { ?>
